@@ -1,4 +1,4 @@
-# ACE-SevsCe-Improvments
+# ACE:SevsCeImprovments
 This addon is designed to improve those aspects that fell victim to balance in ACE. Also new content that should diversify your vehicles or make it more advanced. Our improvements are made based on our preferences and how we enjoy playing Garry's mod, we will always be happy to have fun.
 
 # Improvments
