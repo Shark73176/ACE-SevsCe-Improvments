@@ -8,7 +8,7 @@ ACF.CurrentVersion = 0	-- just defining a variable, do not change
 
 ACF.Year = 2024			-- Current Year
 
-print("[ACE | INFO]- loading ACE. . .")
+print("aboba")
 
 ACE               = ACE or {}
 ACE.ArmorTypes    = {}
@@ -33,7 +33,7 @@ ACF.MeshCalcEnabled       = false
 
 ACF.SpreadScale           = 16						-- The maximum amount that damage can decrease a gun's accuracy.  Default 4x
 ACF.GunInaccuracyScale    = 1						-- A multiplier for gun accuracy.
-ACF.GunInaccuracyBias     = 2						-- Higher numbers make shots more likely to be inaccurate.  Choose between 0.5 to 4. Default is 2 (unbiased).
+ACF.GunInaccuracyBias     = 0.5						-- Higher numbers make shots more likely to be inaccurate.  Choose between 0.5 to 4. Default is 2 (unbiased).
 
 ---------------------------------- Debris ----------------------------------
 
