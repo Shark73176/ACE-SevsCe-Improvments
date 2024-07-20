@@ -4,7 +4,7 @@
 -- Petrol
 
 ACF_DefineEngine( "4.6-V12", {
-	name = "Petrol 4.6L V12",
+	name = "4.6L V12 Petrol",
 	desc = "An elderly racecar engine; low on torque, but plenty of power",
 	model = "models/engines/v12s.mdl",
 	sound = "acf_engines/v12_petrolsmall.wav",
@@ -19,7 +19,7 @@ ACF_DefineEngine( "4.6-V12", {
 } )
 
 ACF_DefineEngine( "7.0-V12", {
-	name = "Petrol 7.0L V12",
+	name = "7.0L V12 Petrol",
 	desc = "A high end V12; primarily found in very expensive cars",
 	model = "models/engines/v12s.mdl",
 	sound = "acf_engines/v12_petrolmedium.wav",
@@ -34,7 +34,7 @@ ACF_DefineEngine( "7.0-V12", {
 } )
 
 ACF_DefineEngine( "13.0-V12", {
-	name = "Petrol 13.0L V12",
+	name = "13.0L V12 Petrol",
 	desc = "Thirsty gasoline v12, good torque and power for medium applications.",
 	model = "models/engines/v12m.mdl",
 	sound = "acf_engines/v12_special.wav",
@@ -50,7 +50,7 @@ ACF_DefineEngine( "13.0-V12", {
 
 
 ACF_DefineEngine( "23.0-V12", {
-	name = "Petrol 23.0L V12",
+	name = "23.0L V12 Petrol",
 	desc = "A large, thirsty gasoline V12, found in early cold war tanks",
 	model = "models/engines/v12l.mdl",
 	sound = "acf_engines/v12_petrollarge.wav",
@@ -65,7 +65,7 @@ ACF_DefineEngine( "23.0-V12", {
 } )
 
 ACF_DefineEngine( "25.0-V12", {
-	name = "Petrol 25.0L V12",
+	name = "25.0L V12 Petrol",
 	desc = "Best petrol V12 engine ever ",
 	model = "models/engines/v12l.mdl",
 	sound = "acf_engines/v12_petrollarge.wav",
@@ -113,7 +113,7 @@ ACF_DefineEngine( "9.2-V12", {
 } )
 
 ACF_DefineEngine( "16.5-V12", {
-	name = "Diesel 16.5L V12",
+	name = "16.5L V12 Diesel ",
 	desc = "V-2-34. Pretty powerful but heavy with nice torque.",
 	model = "models/engines/v12l.mdl",
 	sound = "acf_engines/v12_dieselmedium.wav",
@@ -128,7 +128,7 @@ ACF_DefineEngine( "16.5-V12", {
 } )
 
 ACF_DefineEngine( "21.0-V12", {
-	name = "Diesel 21.0L V12",
+	name = "21.0L V12 Diesel ",
 	desc = "AVDS-1790-2 tank engine; massively powerful, but enormous and heavy",
 	model = "models/engines/v12l.mdl",
 	sound = "acf_engines/v12_diesellarge.wav",
@@ -147,7 +147,7 @@ ACF_DefineEngine( "24.8-V12", {
 	name = "Diesel 24.8 V12",
 	desc = "AVDS-1790-9A tank engine; massively powerful, but enormous and heavy",
 	model = "models/engines/v12l.mdl",
-	sound = "acf_extra/vehiclefx/engines/gnomefather/m60.wav",
+	sound = "acf_engines/v12_dieselmedium.wav",
 	category = "V12",      
 	fuel = "Diesel",
 	enginetype = "GenericDiesel",
@@ -162,7 +162,7 @@ ACF_DefineEngine( "27.0-V12", {
 	name = "Diesel 27.0 V12",
 	desc = "AVDS-1790-1500 tank engine; massively powerful, but enormous and heavy. Best diesel engine in V12",
 	model = "models/engines/v12lbig.mdl",
-	sound = "acf_extra/vehiclefx/engines/gnomefather/m60.wav",
+	sound = "acf_engines/v12_dieselmedium.wav",
 	category = "V12",
 	fuel = "Diesel",
 	enginetype = "GenericDiesel",
@@ -173,47 +173,93 @@ ACF_DefineEngine( "27.0-V12", {
 	limitrpm = 2800
 } )
 
-ACF_DefineEngine( "30-V12", {
-	name = "Diesel 47.6L V12",
-	desc = "Swedish V12 new gen engine",
+ACF_DefineEngine( "MTU 873-1500", {
+	name = "MTU 873 K-501",
+	desc = "Not modern tank diesel engine. Often used in MBTs, but was replaced by 883 series engines.",
 	model = "models/engines/v12lbig.mdl",
-	sound = "acf_extra/vehiclefx/engines/gnomefather/m60.wav",
-	category = "V12",
-	fuel = "Diesel",
-	enginetype = "GenericDiesel",
-	weight = 3500,
-	torque = 4420,
-	flywheelmass = 6.6,
-	idlerpm = 500,
-	limitrpm = 3200
-} )
-
-ACF_DefineEngine( "MTU 883-2250", {
-	name = "MTU 883 K-502",
-	desc = "Swedish V12 new gen engine",
-	model = "models/engines/v12lbig.mdl",
-	sound = "acf_extra/vehiclefx/engines/gnomefather/m60.wav",
+	sound = "acf_engines/v12_dieselmedium.wav",
 	category = "MTU",
 	fuel = "Diesel",
 	enginetype = "GenericDiesel",
 	weight = 1800,
-	torque = 5925,
-	flywheelmass = 6.6,
+	torque = 4600,
+	flywheelmass = 7,
+	idlerpm = 600,
+	limitrpm = 2600
+} )
+
+ACF_DefineEngine( "MTU 883-1500", {
+	name = "MTU 883 K-500",
+	desc = "Economical and inexpensive diesel engine for a tank. Has all modern technologies for more efficient work.",
+	model = "models/engines/v12lbig.mdl",
+	sound = "acf_engines/v12_dieselmedium.wav",
+	category = "MTU",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	weight = 1800,
+	torque = 4440,
+	flywheelmass = 7,
+	idlerpm = 600,
+	limitrpm = 2700
+} )
+
+ACF_DefineEngine( "MTU 883-1630", {
+	name = "MTU 883 K-501",
+	desc = "First steps to boost the MTU 883 K-500, used as a regular engine for MBT.",
+	model = "models/engines/v12lbig.mdl",
+	sound = "acf_engines/v12_dieselmedium.wav",
+	category = "MTU",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	weight = 1800,
+	torque = 4360,
+	flywheelmass = 7,
+	idlerpm = 600,
+	limitrpm = 3000
+} )
+
+ACF_DefineEngine( "MTU 883-2250", {
+	name = "MTU 883 K-502",
+	desc = "An upgraded version of the MTU 883-1500, which is faster and heavier, you can of course put it on your personal yacht.",
+	model = "models/engines/v12lbig.mdl",
+	sound = "acf_engines/v12_dieselmedium.wav",
+	category = "MTU",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	weight = 1800,
+	torque = 6015,
+	flywheelmass = 7,
 	idlerpm = 600,
 	limitrpm = 3000
 } )
 
 ACF_DefineEngine( "MTU 883-2600", {
 	name = "MTU 883 K-523",
-	desc = "Swedish V12 new gen engine",
+	desc = "Whoever decided to boost the MTU 883-1500 was crazy, now the engine resembles the growling heart of a monster.",
 	model = "models/engines/v12lbig.mdl",
-	sound = "acf_extra/vehiclefx/engines/gnomefather/m60.wav",
+	sound = "acf_engines/v12_dieselmedium.wav",
 	category = "MTU",
 	fuel = "Diesel",
 	enginetype = "GenericDiesel",
 	weight = 1800,
-	torque = 6850,
-	flywheelmass = 6.6,
+	torque = 6950,
+	flywheelmass = 7,
 	idlerpm = 600,
 	limitrpm = 3000
 } )
+
+ACF_DefineEngine( "MTU 883-2740", {
+	name = "MTU 883 K-524",
+	desc = "The diesel monster, maximum of boost. Your tank should became a Formula 1.",
+	model = "models/engines/v12lbig.mdl",
+	sound = "acf_engines/v12_dieselmedium.wav",
+	category = "MTU",
+	fuel = "Diesel",
+	enginetype = "GenericDiesel",
+	weight = 1800,
+	torque = 6685,
+	flywheelmass = 7,
+	idlerpm = 600,
+	limitrpm = 3300
+} )
+

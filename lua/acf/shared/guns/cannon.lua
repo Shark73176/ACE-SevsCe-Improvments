@@ -137,7 +137,7 @@ ACF_defineGun("170mmC", {
 	maxrof = 6, -- maximum rounds per minute
 	round = {
 		maxlength = 154,
-		propweight = 34
+		propweight = 40
 	}
 } )
 
@@ -153,6 +153,6 @@ ACF_defineGun("200mmC", {
 	maxrof = 4, -- maximum rounds per minute
 	round = {
 		maxlength = 181,
-		propweight = 40
+		propweight = 50
 	}
 } )

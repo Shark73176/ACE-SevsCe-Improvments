@@ -64,7 +64,7 @@ ACF_defineGun("140mmSBCM", {
 	rofmod = 0.209,
 	round = {
 		maxlength = 140,
-		propweight = 60
+		propweight = 45
 	}
 } )
 
@@ -83,7 +83,7 @@ ACF_defineGun("170mmSBCM", {
 	rofmod = 0.1425,
 	round = {
 		maxlength = 180,
-		propweight = 34
+		propweight = 55
 	}
 } )
 
@@ -101,7 +101,7 @@ ACF_defineGun("200mmSBCM", {
 	rofmod = 0.107,
 	round = {
 		maxlength = 210,
-		propweight = 40
+		propweight = 70
 	}
 } )
 

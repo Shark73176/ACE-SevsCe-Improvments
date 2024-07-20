@@ -199,14 +199,26 @@ ACFTranslation.ShellAPHECBC = {
 
 ACFTranslation.ShellAPDS = {
 	"Armour Piercing Discarding Sabot", --AmmoName (1)
-	"A shell that contains a subcaliber round, dedicated to penetrating heavy armour."
+	"A shell that contains a subcaliber round, dedicated to penetrating heavy armour." --Desc (2)
 
 }
 
 
 ACFTranslation.ShellAPFSDS = {
 	"Armour Piercing Fin-Stabilized Discarding Sabot", --AmmoName (1)
-	"A shell that contains a subcaliber round, dedicated to penetrating heavy armour. Uses fin stabilizers."
+	"A shell that contains a subcaliber round, dedicated to penetrating heavy armour. Uses fin stabilizers." --Desc (2)
+
+}
+
+ACFTranslation.ShellFUAPFSDS = {
+	"Full Uran Armour Piercing Fin-Stabilized Discarding Sabot", --AmmoName (1)
+	"Typical APFSDS, but fully of Uran 238." --Desc (2)
+
+}
+
+ACFTranslation.ShellFTAPFSDS = {
+	"Full Tungsten Armour Piercing Fin-Stabilized Discarding Sabot", --AmmoName (1)
+	"Typical APFSDS, but fully of Tungsten." --Desc (2)
 
 }
 
@@ -262,6 +274,12 @@ ACFTranslation.ShellHEFS = {
 ACFTranslation.ShellHESH = {
 	"High Explosive Squash Head", --AmmoName (1)
 	"A shell filled with explosives, that flattens and detonates on impact creating spall. Weaker blast than HE.\n\nThis ammo can be countered with a spall liner" --Desc (2)
+
+}
+
+ACFTranslation.ShellNUHESH = {
+	"Nuclear High Explosive Squash Head", --AmmoName (1)
+	"BOOM BOOM BOOM I WANT YOU IN MY ROOM" --Desc (2)
 
 }
 

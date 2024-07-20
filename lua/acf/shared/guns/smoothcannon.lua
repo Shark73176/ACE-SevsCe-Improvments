@@ -90,7 +90,7 @@ ACF_defineGun("140mmSBC", {
 	year = 1995,
 	round = {
 		maxlength = 140,
-		propweight = 60
+		propweight = 45
 	}
 } )
 
@@ -107,7 +107,7 @@ ACF_defineGun("170mmSBC", {
 	year = 1990,
 	round = {
 		maxlength = 180,
-		propweight = 34
+		propweight = 55
 	}
 } )
 
@@ -123,7 +123,7 @@ ACF_defineGun("200mmSBC", {
 	year = 2020,
 	round = {
 		maxlength = 210,
-		propweight = 40
+		propweight = 70
 	}
 } )
 
