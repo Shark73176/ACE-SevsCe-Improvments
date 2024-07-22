@@ -1,10 +1,10 @@
 
 local Material		= {}
 
-Material.id			= "Stuctiralsteel"
+Material.id			= "Stucturalsteel"
 Material.name		= "Structural steel"
 Material.sname		= "Structural steel"
-Material.desc		= "Simple, generic, but trusty steel. The standard armor everything else is compared to."
+Material.desc		= "More ductile steel than tank steel, suitable for definitely not armor."
 Material.year		= 1930 -- Dont blame about this, ik that RHA has existed before this year but it would be cool to see: when?
 
 Material.massMod		= 0.98
@@ -14,12 +14,12 @@ Material.curve		= 1 --Slight and almost unnoticable penalty to high thickness ar
 --All Resiliance values are damage multipliers. Higher = more damage. Lower = less damage.
 
 Material.effectiveness  = 0.5
-Material.resiliance	= 0.7
+Material.resiliance	= 5
 
 Material.spallarmor	= 1
-Material.spallresist	= 1
+Material.spallresist	= 1.2
 
-Material.spallmult	= 0.7
+Material.spallmult	= 1
 Material.ArmorMul	= 1
 Material.NormMult	= 1
 
